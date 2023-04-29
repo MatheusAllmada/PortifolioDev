@@ -5,9 +5,7 @@ export const Header = () => {
     <Headers>
       <Infos>
         <ul>
-          <a href="#Headers">
-            <img src="/assets/codificacao.png" alt="" />
-          </a>
+         <img src="/assets/imgs/codificacao.png" alt="" />
           <li>
             <a href="#sobre">Sobre</a>
           </li>

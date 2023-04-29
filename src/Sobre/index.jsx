@@ -56,7 +56,7 @@ export const TypingAnimation = () => {
               </a>
             </Contatos>
           </Info>
-          <img src="/assets/fotopessoal.jpg" alt="" />
+          <img src="/assets/imgs/fotopessoal.jpg" alt="" />
         </Banner>
         <Sobre>
           <h2>Sobre mim</h2>

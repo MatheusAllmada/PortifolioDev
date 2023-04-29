@@ -28,6 +28,7 @@ export const Banner = styled.div`
         
     }
 
+
 `
 
 export const Info = styled.div`
@@ -137,3 +138,5 @@ export const Sobre =styled.div`
 
 
 `
+
+ 

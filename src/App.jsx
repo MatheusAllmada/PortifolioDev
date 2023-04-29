@@ -5,6 +5,8 @@ import { Header } from './Header'
 import {TypingAnimation} from "./Sobre"
 import { Habilidades } from './Habilidades'
 import { Projetos } from './Projetos'
+import { Contato } from './Contato'
+
 function App() {
 
 
@@ -13,8 +15,8 @@ function App() {
     <Header />
     <TypingAnimation />
     <Habilidades />
-    <Projetos />
-    
+    <Projetos />  
+    <Contato />
     </>
   )
 }
