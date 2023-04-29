@@ -8,28 +8,28 @@ export const Projetos = () =>{
         <h2>Projetos:</h2>
         <Projetoscard >
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 031304.png" alt="" />
+                <img src="../../public/assets/imgs-projetos/animaisfantasticos.png" alt="" />
             </Cards>
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 035829.png" alt="" />
+                <img src="../../public/assets/imgs-projetos/animaisfantasticos.png" alt="" />
             </Cards>
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 041514.png" alt="" />
+                <img src="../../public/assets/imgs-projetos/animaisfantasticos.png" alt="" />
             </Cards>
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 030640.png" alt="" />
+                <img src="../../public/assets/imgs-projetos/animaisfantasticos.png" alt="" />
             </Cards>
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 031625.png" alt="" />
+                <img src="../../public/assets/imgs-projetos/animaisfantasticos.png" alt="" />
             </Cards>
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 050000.png" alt="" />
+                <img src="" alt="" />
             </Cards>
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 041842.png" alt="" />
+                <img src="" alt="" />
             </Cards>
             <Cards>
-                <img src="public/assets/imgs projetos/Captura de tela 2023-04-29 040731.png" alt="" />
+                <img src="" alt="" />
             </Cards>
         </Projetoscard>
         </ContainerPro>
