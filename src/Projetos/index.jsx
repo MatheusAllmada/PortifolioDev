@@ -15,7 +15,7 @@ export const Projetos = () => {
           <img src="/assets/imgs-projetos/bikemaster.png" alt="" />
         </Cards>
         <Cards>
-          <img src="public\assets\imgs-projetos\teste.png" alt="" />
+          <img src="/assets/imgs-projetos/teste.png" alt="" />
         </Cards>
         <Cards>
           <img src="/assets/imgs-projetos/bike.png" alt="" />
