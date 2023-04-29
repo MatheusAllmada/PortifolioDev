@@ -45,6 +45,7 @@ export const Cards = styled.div`
     & img {
         width: 400px ;
         height: 500px;
+        object-fit: cover;
     }
 
 `
