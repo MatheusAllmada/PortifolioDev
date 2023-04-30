@@ -48,8 +48,8 @@ export const TypingAnimation = () => {
               <p></p>
             </Titulo>
             <Contatos>
-              <a href="src\assets\Curriculo_Matheus_Almada.pdf" download>
-                Downloand CV
+              <a href="/assets/cv-almada.pdf" download="cv-almada.pdf">
+                Download CV
               </a>
               <a href="mailto:contatomatheusbarreto@hotmail.com" target="blank">
                 Entrar em contato
