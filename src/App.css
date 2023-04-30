@@ -4,3 +4,12 @@ body {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  background-color: #13131F; /* cor de fundo da barra de rolagem */
+  width: .7rem; /* largura da barra de rolagem */
+}
+
+/* Altera a cor da área onde a barra de rolagem aparece */
+::-webkit-scrollbar-thumb {
+  background-color: #8257E6; /* cor da barra de rolagem */
+}
