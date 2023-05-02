@@ -15,7 +15,7 @@ export const ContainerPro = styled.div`
 
     & h2{
     font-family: 'DM Sans', sans-serif;
-    font-size: 3.2rem;
+    font-size: 3vw;
     color: #F9F9F9;
     font-weight: 600;
     text-align: center;
@@ -43,8 +43,8 @@ export const Cards = styled.div`
     transform: scale(1.15);
   }
     & img {
-        width: 400px ;
-        height: 500px;
+        width: 20vw ;
+        height: 20vw ;
         object-fit: cover;
     }
 

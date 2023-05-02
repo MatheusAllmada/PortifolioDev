@@ -63,7 +63,7 @@ export const Titulo = styled.div`
     margin: 0;
     vertical-align: baseline;
     font-family: "DM Sans", sans-serif;
-    font-size: 1vw;
+    font-size: 1.4vw;
     font-weight: 500;
     color: #828282;
   }
@@ -120,7 +120,7 @@ export const Sobre = styled.div`
     font: inherit;
     vertical-align: baseline;
     font-family: "DM Sans", sans-serif;
-    font-size: 3.2rem;
+    font-size: 3vw;
     color: #f9f9f9;
     font-weight: 600;
   }
@@ -133,7 +133,7 @@ export const Sobre = styled.div`
     vertical-align: baseline;
     color: #828282;
     font-family: "DM Sans", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6vw;
     text-align: center;
     width: 55%;
     line-height: 180%;

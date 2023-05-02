@@ -29,7 +29,7 @@ export const SkillContainer = styled.div`
     font: inherit;
     vertical-align: baseline;
     font-family: 'DM Sans', sans-serif;
-    font-size: 3.2rem;
+    font-size: 3vw;
     color: #F9F9F9;
     font-weight: 600;
     margin-bottom: 10rem;
@@ -59,7 +59,7 @@ export const CardsBox = styled.div`
     position: relative;
     text-align: center;
     background-color: #212121;
-    width: 12rem;
+    width: 9vw;
     aspect-ratio: 1;
     display: flex;
     flex-direction: column;

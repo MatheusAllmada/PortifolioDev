@@ -17,7 +17,7 @@ export const Container = styled.div`
 
     & h2{
     font-family: 'DM Sans', sans-serif;
-    font-size: 3.2rem;
+    font-size: 3vw;
     color: #F9F9F9;
     font-weight: 600;
     margin-bottom: 10rem;
