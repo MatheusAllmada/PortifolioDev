@@ -33,7 +33,13 @@ export const SkillContainer = styled.div`
     color: #F9F9F9;
     font-weight: 600;
     margin-bottom: 10rem;
+    @media screen and (max-width: 1200px) {
+        display: flex;
+      font-size: 2rem;
     }
+    }
+
+    
 
 `
 
@@ -89,6 +95,10 @@ export const CardsBox = styled.div`
     font-weight: 500;
     color: #8257E6;
     margin-bottom: 1.5rem;
+    @media screen and (max-width: 1200px) {
+        display: flex;
+       font-size: 1.5rem;
+    }
     }
 
     & img {
@@ -100,6 +110,10 @@ export const CardsBox = styled.div`
     font: inherit;
     vertical-align: baseline;
     width: 4rem;
+    }
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        width: 70px;
     }
 `
 

@@ -72,7 +72,7 @@ export const Nomes = styled.p `
     font: inherit;
     vertical-align: baseline;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.3vw;
     font-weight: bold;
     color: #F9F9F9;
 
@@ -103,7 +103,7 @@ export const SubNomes = styled.p`
     font: inherit;
     vertical-align: baseline;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.1vw;
     font-weight: 500;
     color: #828282;
 
