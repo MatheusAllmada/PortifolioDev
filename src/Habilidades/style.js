@@ -91,13 +91,13 @@ export const CardsBox = styled.div`
     font: inherit;
     vertical-align: baseline;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.2vw;
     font-weight: 500;
     color: #8257E6;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     @media screen and (max-width: 1200px) {
         display: flex;
-       font-size: 1.5rem;
+       font-size: 1.5vw;
     }
     }
 
