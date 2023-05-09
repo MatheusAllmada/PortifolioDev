@@ -6,6 +6,7 @@ export const SectionSobre = styled.section`
   transform: translateX(0);
   opacity: 1;
   padding-bottom: 11.25rem;
+  
 `;
 
 export const Container = styled.div`
@@ -29,7 +30,14 @@ export const Banner = styled.div`
       width: 400px;
       gap: 200px;
     }
+    @media screen and (max-width: 850px) {
+      width: 300px;
+      gap: 200px;
+    }
   }
+  @media screen and (max-width: 850px) {
+    flex-direction: column-reverse;
+    }
 `;
 
 export const Info = styled.div`
@@ -50,6 +58,11 @@ export const Titulo = styled.div`
     font-weight: 500;
     color: #f9f9f9;
     line-height: 5.4rem;
+    @media screen and (max-width: 850px) {
+      font-size: 4vw;
+      text-align: center;
+
+    }
   }
   & span {
     font-family: "Poppins", sans-serif;
@@ -58,15 +71,28 @@ export const Titulo = styled.div`
     line-height: 5.4rem;
     display: block;
     color: #8257e6;
+    @media screen and (max-width: 850px) {
+      font-size: 4vw;
+      line-height: .4rem;
+      text-align: center;
+    }
   }
   & p {
     margin: 0;
-    vertical-align: baseline;
     font-family: "DM Sans", sans-serif;
     font-size: 1.4vw;
     font-weight: 500;
     color: #828282;
+    @media screen and (max-width: 850px) {
+      font-size: 2.5vw;
+      line-height: 5.4rem;
+      text-align: center;
+    }
   }
+  @media screen and (max-width: 850px) {
+    
+    }
+
 `;
 
 export const Contatos = styled.div`
@@ -99,6 +125,10 @@ export const Contatos = styled.div`
     @media screen and (max-width: 1090px) {
       padding: 0.8rem 1.5rem;
     }
+    @media screen and (max-width: 800px) {
+      font-size: 2vw;
+    }
+    
   }
 `;
 
@@ -123,6 +153,9 @@ export const Sobre = styled.div`
     font-size: 3vw;
     color: #f9f9f9;
     font-weight: 600;
+    @media screen and (max-width: 610px ) {
+      font-size: 4vw;
+    }
   }
 
   & p {
@@ -137,5 +170,8 @@ export const Sobre = styled.div`
     text-align: center;
     width: 55%;
     line-height: 180%;
+    @media screen and (max-width: 610px ) {
+      font-size: 3vw;
+    }
   }
 `;

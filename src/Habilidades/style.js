@@ -37,6 +37,9 @@ export const SkillContainer = styled.div`
         display: flex;
       font-size: 2rem;
     }
+    @media screen and (max-width: 60000px) {
+      font-size: 4vw;
+    }
     }
 
     
@@ -53,6 +56,9 @@ export const Cards = styled.div`
     flex-wrap: wrap;
     align-items: center;
     gap: 5rem;
+    @media screen and (max-width: 1200px) {
+        gap: 2rem;
+    }
 `
 
 export const CardsBox = styled.div`
@@ -70,7 +76,8 @@ export const CardsBox = styled.div`
     
     &:hover {
     transform: scale(1.30);
-  }
+    }
+    
     &::after {
     content: "";
     display: block;
@@ -80,6 +87,9 @@ export const CardsBox = styled.div`
     background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
     bottom: -0.1rem;
     left: 0;
+    }
+    @media screen and (max-width: 600px) {
+        border-top-left-radius: 0.9rem;
     }
 
     & p{
@@ -99,6 +109,9 @@ export const CardsBox = styled.div`
         display: flex;
        font-size: 1.5vw;
     }
+    @media screen and (max-width: 600px) {
+        margin-top: 10px;
+    }
     }
 
     & img {
@@ -110,10 +123,18 @@ export const CardsBox = styled.div`
     font: inherit;
     vertical-align: baseline;
     width: 4rem;
+    @media screen and (max-width: 600px) {
+        width: 6vw;
+        margin-bottom: 1rem;
+    }
     }
     @media screen and (max-width: 1200px) {
         display: flex;
         width: 70px;
+    }
+    @media screen and (max-width: 600px) {
+        width: 10vw;
+        margin-bottom: 1rem;
     }
 `
 
