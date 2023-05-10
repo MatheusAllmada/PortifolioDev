@@ -5,6 +5,11 @@ export const Projetos = () => {
     <ContainerPro id="projetos">
       <h2>Projetos:</h2>
       <Projetoscard>
+      <Cards>
+          <a target="blank" href="https://apifilmes-lac.vercel.app/">
+            <img src="/assets/imgs-projetos/apifilmes.png" alt="" />
+          </a>
+        </Cards>
         <Cards>
           <a target="blank" href="https://projetoflexblog.vercel.app/">
             <img src="/assets/imgs-projetos/flexblog.png" alt="" />

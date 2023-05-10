@@ -26,7 +26,7 @@ export const Banner = styled.div`
   & img {
     border-radius: 20%;
     width: 500px;
-    @media screen and (max-width: 1090px) {
+    @media screen and (max-width: 1200px) {
       width: 400px;
       gap: 200px;
     }
@@ -54,19 +54,23 @@ export const Titulo = styled.div`
   & h1 {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 500;
     color: #f9f9f9;
-    line-height: 5.4rem;
+    line-height: 3.0rem;
+    @media screen and (max-width: 1270px) {
+      line-height: 1.0rem;
+    }
     @media screen and (max-width: 850px) {
-      font-size: 4vw;
+      font-size: 3vw;
+      line-height: 4.0rem;
       text-align: center;
 
     }
   }
   & span {
     font-family: "Poppins", sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 500;
     line-height: 5.4rem;
     display: block;
@@ -80,7 +84,7 @@ export const Titulo = styled.div`
   & p {
     margin: 0;
     font-family: "DM Sans", sans-serif;
-    font-size: 1.4vw;
+    font-size: 1vw;
     font-weight: 500;
     color: #828282;
     @media screen and (max-width: 850px) {
@@ -122,7 +126,7 @@ export const Contatos = styled.div`
     justify-content: center;
     border-radius: 2rem;
     transition: 0.3s;
-    @media screen and (max-width: 1090px) {
+    @media screen and (max-width: 1200px) {
       padding: 0.8rem 1.5rem;
     }
     @media screen and (max-width: 800px) {

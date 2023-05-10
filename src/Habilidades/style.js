@@ -37,7 +37,7 @@ export const SkillContainer = styled.div`
         display: flex;
       font-size: 2rem;
     }
-    @media screen and (max-width: 60000px) {
+    @media screen and (max-width: 600px) {
       font-size: 4vw;
     }
     }
@@ -107,7 +107,8 @@ export const CardsBox = styled.div`
     margin-bottom: 1.2rem;
     @media screen and (max-width: 1200px) {
         display: flex;
-       font-size: 1.5vw;
+       font-size: 1vw;
+      
     }
     @media screen and (max-width: 600px) {
         margin-top: 10px;
@@ -127,10 +128,16 @@ export const CardsBox = styled.div`
         width: 6vw;
         margin-bottom: 1rem;
     }
+
+    @media screen and (max-width: 1200px) {
+        width: 4vw;
+
+    }
     }
     @media screen and (max-width: 1200px) {
         display: flex;
         width: 70px;
+        border-top-left-radius: 1rem;
     }
     @media screen and (max-width: 600px) {
         width: 10vw;
